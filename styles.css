@@ -1,0 +1,184 @@
+/*main*/
+
+
+body {
+    margin: 0px;
+    
+}
+.page1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+
+/*navbar*/
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 33px;
+    background-color: black;
+}
+.leftside {
+    display: flex;
+
+}
+.nav > .leftside > div {
+    margin-right: 20px;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+}
+.subnav {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.subnav a {
+    color: rgb(0, 204, 204);
+    text-decoration: none;
+    transition: color 0.4s;
+}
+.subnav:hover {
+    border-bottom: 1px solid white;
+}
+.subnav a:hover {
+    color: white;
+}
+.por {
+    font-size: 25px;
+    font-family: "Lato", sans-serif;
+    color: white;
+    margin-right: 100px;
+}
+.name {
+    font-family: "Lato", sans-serif;
+    color: white;
+}
+
+
+/*index*/
+.content {
+    display: grid;
+    margin-bottom: 200px;
+       
+}
+.prof {
+    height: 100px;
+    
+}
+img {
+    margin-left: 85px;
+    margin-top: 20px;
+}
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    
+    height: 300px; /* only for demonstration, should be removed */
+}
+ul {
+    border: black;
+    border-width: 5px;
+    outline: black;
+    outline-width: 10px;
+
+}
+.content > section > article > h1 {
+    font-family: "Lato", sans-serif;
+}
+.content > section > article > p {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+
+}
+
+footer {
+    height: 70px;
+    background-color: black;
+    margin-top: 0px;
+
+    
+}
+
+
+/*projects*/
+
+.projekt {
+    padding: 30px;
+    background-color: rgb(63, 63, 63, 0.6);
+    
+}
+p3{
+    
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    color: white;
+}
+h3{
+    
+    font-family: "Lato", sans-serif;
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 50px;
+    
+}
+.bckgr {
+background-image: url(images/f4.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+display: flex;
+height: 1000px;
+
+}
+/*gallery*/
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.photo {
+    position: relative;
+}
+
+.img {
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*contacts*/
+
+.content4 {
+margin-left: 100px;
+margin-top: 100px;
+margin-bottom: 520px;
+}
+h2 {
+    font-family: "Lato", sans-serif; 
+}
+p2 {
+    font-family: "Lato", sans-serif; 
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+
